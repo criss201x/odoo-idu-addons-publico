@@ -22,32 +22,19 @@
 ##############################################################################
 
 from openerp import models, fields, api
-from openerp.exceptions import ValidationError
 
+class actualizar_responsables_dependencias(models.TransientModel):
+    _name = 'base_idu.wizard.actualizar_responsables_dependencias'
+    _description = 'Wizard para actualizar los permisos a los responsables de las dependencias'
 
-class hr_department(models.Model):
-    _name = 'hr.department'
-    _inherit = ['hr.department']
-
-    # -------------------
-    # Fields
-    # -------------------
-    proyecto_gerente_id = fields.Many2one(
-        string='Coordinador de Proyectos',
-        required=False,
-        track_visibility='onchange',
-        comodel_name='res.users',
-        ondelete='restrict',
-        help='''Tiene permisos de administración de los proyectos, EDT y tareas para la dependencia''',
-    )
-    proyecto_programador_id = fields.Many2one(
-        string='Programador de Proyectos',
-        required=False,
-        track_visibility='onchange',
-        comodel_name='res.users',
-        ondelete='restrict',
-    )
-
-    # -------------------
-    # methods
-    # -------------------
+    @api.multi
+    def procesar(self):
+        self.ensure_one()
+        grp_jefe_dependencia = self.env.ref('base_idu.group_jefe_dependencia')
+        # Asignar permisos jefe de dependencia a todos los hr.department->manager_id
+        user_ids = self.env['hr.department'].search([]).mapped('manager_id.user_id.id')
+        if user_ids:
+            grp_jefe_dependencia.write({
+                'users': [(6, 0, user_ids)]
+            })
+        return {'type': 'ir.actions.act_window_close'}
