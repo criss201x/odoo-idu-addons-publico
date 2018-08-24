@@ -1,34 +1,167 @@
 id,company_id/id,codigo,parent_id/id,name,abreviatura
-base_idu.hr_department_1,base.main_company,105,,DIRECCIÓN GENERAL,DG
-base_idu.hr_department_2,base.main_company,115,base_idu.hr_department_1,OFICINA ASESORA DE PLANEACIÓN,OAP
-base_idu.hr_department_3,base.main_company,125,base_idu.hr_department_1,OFICINA ATENCIÓN AL CIUDADANO,OTC
-base_idu.hr_department_4,base.main_company,135,base_idu.hr_department_1,OFICINA DE CONTROL INTERNO,OCI
-base_idu.hr_department_5,base.main_company,145,base_idu.hr_department_1,OFICINA ASESORA DE COMUNICACIONES,OAC
-base_idu.hr_department_6,base.main_company,155,base_idu.hr_department_1,OFICINA DE CONTROL DISCIPLINARIO,OCD
-base_idu.hr_department_7,base.main_company,205,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DESARROLLO URBANO,SGDU
-base_idu.hr_department_8,base.main_company,215,base_idu.hr_department_7,DIRECCIÓN TÉCNICA ESTRATEGICA,DTE
-base_idu.hr_department_9,base.main_company,225,base_idu.hr_department_7,DIRECCIÓN TÉCNICA DE PROYECTOS,DTP
-base_idu.hr_department_10,base.main_company,305,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DE INFRAESTRUCTURA,SGI
-base_idu.hr_department_11,base.main_company,315,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE DISEÑO DE PROYECTOS,DTD
-base_idu.hr_department_12,base.main_company,325,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE PREDIOS,DTDP
-base_idu.hr_department_13,base.main_company,335,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE CONSTRUCCIONES,DTC
-base_idu.hr_department_14,base.main_company,336,base_idu.hr_department_13,S. T. DE EJECUCIÓN SUBSISTEMA VIAL,STESV
-base_idu.hr_department_15,base.main_company,346,base_idu.hr_department_13,S.T. EJECUCIÓN SUBSISTEMA TRANSPORTE,STEST
-base_idu.hr_department_16,base.main_company,355,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE MANTENIMIENTO,DTM
-base_idu.hr_department_17,base.main_company,356,base_idu.hr_department_16,S.T. DE MANTENIMIENTO SUBSISTEMA VIAL,STMSV
-base_idu.hr_department_18,base.main_company,366,base_idu.hr_department_16,S.T. DE MANTENIMIENTO SUBSISTEMA TRANSPO,STMST
-base_idu.hr_department_19,base.main_company,375,base_idu.hr_department_10,D. TÉCNICA DE ADMON INFRAESTRUCTURA,DTAI
-base_idu.hr_department_20,base.main_company,405,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL JURIDICA ,SGJ
-base_idu.hr_department_21,base.main_company,415,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE PROCESOS SELECTIVOS,DTPS
-base_idu.hr_department_22,base.main_company,425,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE GESTIÓN JUDICIAL,DTGJ
-base_idu.hr_department_23,base.main_company,435,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE GESTION CONTRACTUAL,DTGC
-base_idu.hr_department_24,base.main_company,505,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DE GESTIÓN CORPORATIVA,SGGC
-base_idu.hr_department_25,base.main_company,515,base_idu.hr_department_24,DIRECCIÓN TÉC ADMINISTRATIVA Y FINANCIER,DTAF
-base_idu.hr_department_26,base.main_company,516,base_idu.hr_department_25,S.T. DE RECURSOS HUMANOS,STRH
-base_idu.hr_department_27,base.main_company,526,base_idu.hr_department_25,S.T. DE RECURSOS FISICOS,STRF
-base_idu.hr_department_28,base.main_company,536,base_idu.hr_department_25,S.T. DE RECURSOS TECNOLÓGICOS,STRT
-base_idu.hr_department_29,base.main_company,546,base_idu.hr_department_25,S.T. PRESUPUESTO Y CONTABLILIDAD,STPC
-base_idu.hr_department_30,base.main_company,556,base_idu.hr_department_25,S.T. DE TESORERIA Y RECAUDO,STTR
-base_idu.hr_department_31,base.main_company,565,base_idu.hr_department_24,DIRECCIÓN TÉCNICA APOYO ALA VALORIZACION,DTAV
-base_idu.hr_department_32,base.main_company,566,base_idu.hr_department_31,S.T. JURIDICA Y EJECUCIONES FISCALES,STJEF
-base_idu.hr_department_33,base.main_company,576,base_idu.hr_department_31,S.T. DE OPERACIONES,STOP
+base_idu.hr_department_1,base.main_company,100,,RECTORIA,RECT
+base_idu.hr_department_2,base.main_company,101,base_idu.hr_department_1,VICERRECTORIA ACADEMICA,VI
+base_idu.hr_department_3,base.main_company,102,base_idu.hr_department_1,SECRETARIA GENERAL,SG
+base_idu.hr_department_4,base.main_company,103,base_idu.hr_department_1,OFICINA ASESORA DE ASUNTOS DISCIPLINARIOS,OAAD
+base_idu.hr_department_5,base.main_company,104,base_idu.hr_department_1,OFICINA ASESORA DE PLANEACION Y CONTROL,OAPC
+base_idu.hr_department_6,base.main_company,105,base_idu.hr_department_1,VICERRECTORIA ADMINISTRATIVA Y FINANCIERA,VIAF
+base_idu.hr_department_7,base.main_company,106,base_idu.hr_department_1,OFICINA ASESORA DE CONTROL INTERNO,OACI
+base_idu.hr_department_8,base.main_company,107,base_idu.hr_department_1,CENTRO DE RELACIONES INTERINSTITUCIONALES,CRII
+base_idu.hr_department_9,base.main_company,108,base_idu.hr_department_1,OFICINA ASESORA DE SISTEMAS,OAS
+base_idu.hr_department_10,base.main_company,109,base_idu.hr_department_2,FACULTAD DE INGENIERIA,FAIN
+base_idu.hr_department_11,base.main_company,110,base_idu.hr_department_10,ESPECIALIZACION EN INFORMATICA Y AUTOMATICA INDUSTRIAL,EIAI
+base_idu.hr_department_12,base.main_company,111,base_idu.hr_department_10,ESPECIALIZACION EN INGENIERIA DE SOFTWARE,EISO
+base_idu.hr_department_13,base.main_company,112,base_idu.hr_department_10,ESPECIALIZACION EN PROYECTOS INFORMATICOS,EPIN
+base_idu.hr_department_14,base.main_company,113,base_idu.hr_department_10,MAESTRIA EN CIENCIAS DE LA INFORMACION Y LAS COMUNICACIONES,MCIC
+base_idu.hr_department_15,base.main_company,114,base_idu.hr_department_10,MAESTRIA EN INGENIERIA INDUSTRIAL,MIIN
+base_idu.hr_department_16,base.main_company,115,base_idu.hr_department_10,ESPECIALIZACION EN BIOINGENIERIA,ESBI
+base_idu.hr_department_17,base.main_company,116,base_idu.hr_department_10,"ESPECIALIZACION EN HIGIENE, SEGURIDAD Y SALUD EN EL TRABAJO",EHSST
+base_idu.hr_department_18,base.main_company,117,base_idu.hr_department_10,ESPECIALIZACION EN AVALUOS,ESAV
+base_idu.hr_department_19,base.main_company,118,base_idu.hr_department_10,ESPECIALIZACION EN GESTION DE PROYECTOS DE INGENIERIA,EGPI
+base_idu.hr_department_20,base.main_company,119,base_idu.hr_department_10,ESPECIALIZACION EN SISTEMAS DE INFORMACION GEOGRAFICA,ESIG
+base_idu.hr_department_21,base.main_company,120,base_idu.hr_department_10,ESPECIALIZACION EN TELECOMUNICACIONES MOVILES,ETMO
+base_idu.hr_department_22,base.main_company,121,base_idu.hr_department_10,ESPECIALIZACION EN TELEINFORMATICA,ESTE
+base_idu.hr_department_23,base.main_company,122,base_idu.hr_department_10,INGENIERIA CATASTRAL Y GEODESIA – ICG,ICG
+base_idu.hr_department_24,base.main_company,123,base_idu.hr_department_10,INGENIERIA DE SISTEMAS,INSI
+base_idu.hr_department_25,base.main_company,124,base_idu.hr_department_10,INGENIERIA ELECTRICA,INEL
+base_idu.hr_department_26,base.main_company,125,base_idu.hr_department_10,INGENIERIA ELECTRONICA,INET
+base_idu.hr_department_27,base.main_company,126,base_idu.hr_department_10,INGENIERIA INDUSTRIAL,ININ
+base_idu.hr_department_28,base.main_company,127,base_idu.hr_department_10,SECRETARIA ACADEMICA FACULTAD DE INGENIERIA,SAFI
+base_idu.hr_department_29,base.main_company,128,base_idu.hr_department_10,UNIDAD DE EXTENSION FACULTAD DE INGENIERIA,UEFI
+base_idu.hr_department_30,base.main_company,129,base_idu.hr_department_10,DOCTORADO EN INGENIERIA,DOIN
+base_idu.hr_department_31,base.main_company,130,base_idu.hr_department_10,COORDINACION DE AUTOEVALUACION Y ACREDITACION FACULTAD DE INGENIERIA,CAAFI
+base_idu.hr_department_32,base.main_company,131,base_idu.hr_department_10,MAESTRIA EN TELECOMUNICACIONES MOVILES – VIRTUAL,MTMV
+base_idu.hr_department_33,base.main_company,132,base_idu.hr_department_10,RED DE INVESTIGACIONES DE TECNOLOGIA AVANZADA RITA,RITA
+base_idu.hr_department_34,base.main_company,133,base_idu.hr_department_10,UNIDAD DE INVESTIGACIONES FACULTAD DE INGENIERIA,UIFI
+base_idu.hr_department_35,base.main_company,134,base_idu.hr_department_10,PROYECTO PLANESTIC-UD,PRPL
+base_idu.hr_department_36,base.main_company,135,base_idu.hr_department_2,FACULTAD DE CIENCIAS Y EDUCACION,FACE
+base_idu.hr_department_37,base.main_company,136,base_idu.hr_department_36,LICENCIATURA EN FISICA,LIFI
+base_idu.hr_department_38,base.main_company,137,base_idu.hr_department_36,LICENCIATURA EN BIOLOGIA,LIBI
+base_idu.hr_department_39,base.main_company,138,base_idu.hr_department_36,LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN CIENCIAS SOCIALES,LEBECS
+base_idu.hr_department_40,base.main_company,139,base_idu.hr_department_36,LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN HUMANIDADES Y LENGUA CASTELLANA,LEBEHLC
+base_idu.hr_department_41,base.main_company,140,base_idu.hr_department_36,LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN INGLES,LEBEI
+base_idu.hr_department_42,base.main_company,141,base_idu.hr_department_36,LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN MATEMATICAS,LEBEM
+base_idu.hr_department_43,base.main_company,142,base_idu.hr_department_36,LICENCIATURA EN QUIMICA,LIQI
+base_idu.hr_department_44,base.main_company,143,base_idu.hr_department_36,ESPECIALIZACION EN EDUCACION EN TECNOLOGIA,EETE
+base_idu.hr_department_45,base.main_company,144,base_idu.hr_department_36,ESPECIALIZACION EN DESARROLLO HUMANO CON ENFASIS EN  PROCESOS AFECTIVOS Y CREATIVIDAD,EDHEPAC
+base_idu.hr_department_46,base.main_company,145,base_idu.hr_department_36,ESPECIALIZACION EN EDUCACION MATEMATICA,ESEM
+base_idu.hr_department_47,base.main_company,146,base_idu.hr_department_36,ESPECIALIZACION EN EDUCACION Y GESTION AMBIENTAL,ESEGA
+base_idu.hr_department_48,base.main_company,147,base_idu.hr_department_36,"ESPECIALIZACION EN INFANCIA, CULTURA Y DESARROLLO",EICD
+base_idu.hr_department_49,base.main_company,148,base_idu.hr_department_36,ESPECIALIZACION EN LENGUAJE Y PEDAGOGIA DE PROYECTOS,ELPP
+base_idu.hr_department_50,base.main_company,149,base_idu.hr_department_36,ESPECIALIZACION EN PEDAGOGIA DE LA COMUNICACION Y MEDIOS INTERACTIVOS (NO SE OFERTA),EPCMI
+base_idu.hr_department_51,base.main_company,150,base_idu.hr_department_36,ESPECIALIZACION EN GERENCIA DE PROYECTOS  EDUCATIVOS INSTITUCIONALES,EGPEI
+base_idu.hr_department_52,base.main_company,151,base_idu.hr_department_36,LICENCIATURA EN EDUCACION BASICA CON ENFASIS EN EDUCACION ARTISTICA,LEBEEA
+base_idu.hr_department_53,base.main_company,152,base_idu.hr_department_36,LICENCIATURA EN PEDAGOGIA INFANTIL,LIPI
+base_idu.hr_department_54,base.main_company,153,base_idu.hr_department_36,MAESTRIA EN INVESTIGACION SOCIAL INTERDISCIPLINARIA,MISI
+base_idu.hr_department_55,base.main_company,154,base_idu.hr_department_36,MAESTRIA EN LINGUISTICA APLICADA A LA ENSENANZA DEL INGLES,MLAEI
+base_idu.hr_department_56,base.main_company,155,base_idu.hr_department_36,MATEMATICAS,MATE
+base_idu.hr_department_57,base.main_company,156,base_idu.hr_department_36,SECRETARIA ACADEMICA FACULTAD DE CIENCIAS Y EDUCACION,SAFCE
+base_idu.hr_department_58,base.main_company,157,base_idu.hr_department_36,UNIDAD DE EXTENSION FACULTAD DE CIENCIAS Y EDUCACION,UEFCE
+base_idu.hr_department_59,base.main_company,158,base_idu.hr_department_36,DOCTORADO INTERINSTITUCIONAL EN EDUCACION,DIED
+base_idu.hr_department_60,base.main_company,159,base_idu.hr_department_36,PROYECTO ACADEMICO DE INVESTIGACION Y EXTENSION DE PEDAGOGIA,PAIEP
+base_idu.hr_department_61,base.main_company,160,base_idu.hr_department_36,MAESTRIA EN PEDAGOGIA DE LA LENGUA MATERNA,MPLM
+base_idu.hr_department_62,base.main_company,161,base_idu.hr_department_36,MAESTRIA EN COMUNICACION-EDUCACION,MCED
+base_idu.hr_department_63,base.main_company,162,base_idu.hr_department_36,MAESTRIA EN EDUCACION,MAED
+base_idu.hr_department_64,base.main_company,163,base_idu.hr_department_36,COORDINACION DE AUTOEVALUACION Y ACREDITACION FACULTAD DE CIENCIAS Y EDUCACION,CAAFCE
+base_idu.hr_department_65,base.main_company,164,base_idu.hr_department_36,PROYECTO ACADEMICO TRANSVERSAL DE FORMACION DE PROFESORES  PARA POBLACIONES CON NECESIDADES EDUCATIVAS ESPECIALES,PATFPPNEE
+base_idu.hr_department_66,base.main_company,165,base_idu.hr_department_36,MAESTRIA EN EDUCACION EN TECNOLOGIA,METC
+base_idu.hr_department_67,base.main_company,166,base_idu.hr_department_36,MAESTRIA EN INFANCIA Y CULTURA,MICU
+base_idu.hr_department_68,base.main_company,167,base_idu.hr_department_36,DOCTORADO EN ESTUDIOS SOCIALES,DESO
+base_idu.hr_department_69,base.main_company,168,base_idu.hr_department_2,FACULTAD DE ARTES ASAB,FAAS
+base_idu.hr_department_70,base.main_company,169,base_idu.hr_department_69,ARTES ESCENICAS,ARES
+base_idu.hr_department_71,base.main_company,170,base_idu.hr_department_69,ARTES MUSICALES,ARMU
+base_idu.hr_department_72,base.main_company,171,base_idu.hr_department_69,ARTES PLASTICAS Y VISUALES,APVI
+base_idu.hr_department_73,base.main_company,172,base_idu.hr_department_69,SECRETARIA ACADEMICA FACULTAD DE ARTES – ASAB,SAFA
+base_idu.hr_department_74,base.main_company,173,base_idu.hr_department_69,ACADEMIA LUIS A. CALVO,ALAC
+base_idu.hr_department_75,base.main_company,174,base_idu.hr_department_69,UNIDAD DE EXTENSION FACULTAD DE ARTES – ASAB,UEFA
+base_idu.hr_department_76,base.main_company,175,base_idu.hr_department_69,MAESTRIA EN ESTUDIOS ARTISTICOS,MEAR
+base_idu.hr_department_77,base.main_company,176,base_idu.hr_department_69,ARTE DANZARIO,ARDA
+base_idu.hr_department_78,base.main_company,177,base_idu.hr_department_69,COORDINACION DE LABORATORIOS - FACULTAD DE ARTES ASAB,CLFA
+base_idu.hr_department_79,base.main_company,178,base_idu.hr_department_2,COORDINACION GENERAL DE AUTOEVALUACION Y ACREDITACION,CGAA
+base_idu.hr_department_80,base.main_company,179,base_idu.hr_department_2,CENTRO DE BIENESTAR INSTITUCIONAL,CBIN
+base_idu.hr_department_81,base.main_company,180,base_idu.hr_department_2,CATEDRA UNESCO EN DESARROLLO DEL NINO,CUDN
+base_idu.hr_department_82,base.main_company,181,base_idu.hr_department_2,CENTRO DE INVESTIGACIONES Y DESARROLLO CIENTIFICO,CIDC
+base_idu.hr_department_83,base.main_company,182,base_idu.hr_department_2,DOCENCIA,DOCE
+base_idu.hr_department_84,base.main_company,183,base_idu.hr_department_2,EGRESADOS,EGRE
+base_idu.hr_department_85,base.main_company,184,base_idu.hr_department_2,EMISORA LAUD 90.4 FM ESTEREO,EMIS
+base_idu.hr_department_86,base.main_company,185,base_idu.hr_department_2,FACULTAD DE MEDIO AMBIENTE,FAMA
+base_idu.hr_department_87,base.main_company,186,base_idu.hr_department_86,INGENIERIA TOPOGRAFICA,INTO
+base_idu.hr_department_88,base.main_company,187,base_idu.hr_department_86,ADMINISTRACION DEPORTIVA,ADDE
+base_idu.hr_department_89,base.main_company,188,base_idu.hr_department_86,ESPECIALIZACION EN AMBIENTE Y DESARROLLO LOCAL,EADL
+base_idu.hr_department_90,base.main_company,189,base_idu.hr_department_86,ESPECIALIZACION EN DISENO DE VIAS URBANAS TRANSITO Y TRANSPORTE,EDVUT
+base_idu.hr_department_91,base.main_company,190,base_idu.hr_department_86,ESPECIALIZACION EN GERENCIA DE RECURSOS NATURALES,EGRN
+base_idu.hr_department_92,base.main_company,191,base_idu.hr_department_86,INGENIERIA AMBIENTAL,INAM
+base_idu.hr_department_93,base.main_company,192,base_idu.hr_department_86,INGENIERIA FORESTAL,INFO
+base_idu.hr_department_94,base.main_company,193,base_idu.hr_department_86,SECRETARIA ACADEMICA FACULTAD DEL MEDIO AMBIENTE Y RECURSOS NATURALES,SAFMARN
+base_idu.hr_department_95,base.main_company,194,base_idu.hr_department_86,TECNOLOGIA EN GESTION AMBIENTAL Y SERVICIOS PUBLICOS,TGASP
+base_idu.hr_department_96,base.main_company,195,base_idu.hr_department_86,TECNOLOGIA EN SANEAMIENTO AMBIENTAL,TSAM
+base_idu.hr_department_97,base.main_company,196,base_idu.hr_department_86,TECNOLOGIA EN TOPOGRAFIA,TETO
+base_idu.hr_department_98,base.main_company,197,base_idu.hr_department_86,UNIDAD DE EXTENSION FACULTAD DEL MEDIO AMBIENTE,UEFMA
+base_idu.hr_department_99,base.main_company,198,base_idu.hr_department_86,ADMINISTRACION AMBIENTAL,ADAM
+base_idu.hr_department_100,base.main_company,199,base_idu.hr_department_86,COORDINACION DE LABORATORIOS FACULTAD DEL MEDIO AMBIENTE,CLFMA
+base_idu.hr_department_101,base.main_company,200,base_idu.hr_department_86,COORDINACION DE AUTOEVALUACION Y ACREDITACION FACULTAD DEL MEDIO AMBIENTE,CAAFMA
+base_idu.hr_department_102,base.main_company,201,base_idu.hr_department_86,HERBARIO FORESTAL FACULTAD DEL MEDIO AMBIENTE,HFFMA
+base_idu.hr_department_103,base.main_company,202,base_idu.hr_department_86,LABORATORIO DE SANIDAD FORESTAL,LSFO
+base_idu.hr_department_104,base.main_company,203,base_idu.hr_department_86,LABORATORIO DE MADERAS,LAMA
+base_idu.hr_department_105,base.main_company,204,base_idu.hr_department_86,LABORATORIO DE SUELOS,LASU
+base_idu.hr_department_106,base.main_company,205,base_idu.hr_department_86,LABORATORIO DE QUIMICA Y CALIDAD DE AGUAS,LAQCA
+base_idu.hr_department_107,base.main_company,206,base_idu.hr_department_86,LABORATORIO DE SILVICULTURA,LASI
+base_idu.hr_department_108,base.main_company,207,base_idu.hr_department_86,LABORATORIO DE INVESTIGACIONES FACULTAD DEL MEDIO AMBIENTE,LIFMA
+base_idu.hr_department_109,base.main_company,208,base_idu.hr_department_86,MAESTRIA EN DESARROLLO SUSTENTABLE Y GESTION AMBIENTAL,MDSGA
+base_idu.hr_department_110,base.main_company,209,base_idu.hr_department_86,"MAESTRIA EN MANEJO, USO Y CONSERVACION DEL BOSQUE",MMUCB
+base_idu.hr_department_111,base.main_company,210,base_idu.hr_department_86,INGENIERIA SANITARIA,INSA
+base_idu.hr_department_112,base.main_company,211,base_idu.hr_department_86,LABORATORIO DE TECNOLOGIAS LIMPIAS,LATL
+base_idu.hr_department_113,base.main_company,212,base_idu.hr_department_2,FACULTAD TECNOLOGICA,FATE
+base_idu.hr_department_114,base.main_company,213,base_idu.hr_department_113,INGENIERIA EN TELEMATICA,INTE
+base_idu.hr_department_115,base.main_company,214,base_idu.hr_department_113,INGENIERIA CIVIL,INCI
+base_idu.hr_department_116,base.main_company,215,base_idu.hr_department_113,INGENIERIA DE PRODUCCION (POR CICLOS PROPEDEUTICOS),INPC
+base_idu.hr_department_117,base.main_company,216,base_idu.hr_department_113,INGENIERIA EN CONTROL,INCO
+base_idu.hr_department_118,base.main_company,217,base_idu.hr_department_113,INGENIERIA EN DISTRIBUCION Y REDES ELECTRICAS,IDRE
+base_idu.hr_department_119,base.main_company,218,base_idu.hr_department_113,INGENIERIA EN TELECOMUNICACIONES,INTE
+base_idu.hr_department_120,base.main_company,219,base_idu.hr_department_113,INGENIERIA MECANICA,INME
+base_idu.hr_department_121,base.main_company,220,base_idu.hr_department_113,SECRETARIA ACADEMICA FACULTAD TECNOLOGICA,SAFT
+base_idu.hr_department_122,base.main_company,221,base_idu.hr_department_113,TECNOLOGIA ELECTRONICA (POR CICLOS PROPEDEUTICOS),TEEC
+base_idu.hr_department_123,base.main_company,222,base_idu.hr_department_113,TECNOLOGIA EN CONSTRUCCIONES CIVILES (POR CICLOS PROPEDEUTICOS),TCCC
+base_idu.hr_department_124,base.main_company,223,base_idu.hr_department_113,TECNOLOGIA EN SISTEMAS ELECTRICOS DE MEDIA Y BAJA TENSION,TSEMB
+base_idu.hr_department_125,base.main_company,224,base_idu.hr_department_113,TECNOLOGIA  INDUSTRIAL (POR CICLOS PROPEDEUTICOS),TICP
+base_idu.hr_department_126,base.main_company,225,base_idu.hr_department_113,TECNOLOGIA MECANICA (POR CICLOS PROPEDEUTICOS),TMCP
+base_idu.hr_department_127,base.main_company,226,base_idu.hr_department_113,TECNOLOGIA EN SISTEMATIZACION DE DATOS (POR CICLOS PROPEDEUTICOS),TSDC
+base_idu.hr_department_128,base.main_company,227,base_idu.hr_department_113,UNIDAD DE EXTENSION FACULTAD TECNOLOGICA,UEFT
+base_idu.hr_department_129,base.main_company,228,base_idu.hr_department_113,INGENIERIA ELECTRICA (POR CICLOS PROPEDEUTICOS),IEPC
+base_idu.hr_department_130,base.main_company,229,base_idu.hr_department_113,LABORATORIOS DE INFORMATICA DE LA FACULTAD TECNOLOGICA,LIFT
+base_idu.hr_department_131,base.main_company,230,base_idu.hr_department_113,LABORATORIO DE TECNOLOGIA EN ELECTRICIDAD,LTEL
+base_idu.hr_department_132,base.main_company,231,base_idu.hr_department_113,LABORATORIOS Y TALLERES DE MECANICA,LTME
+base_idu.hr_department_133,base.main_company,232,base_idu.hr_department_113,COORDINACION DE AUTOEVALUACION Y ACREDITACION FACULTAD TECNOLOGICA,CAAF
+base_idu.hr_department_134,base.main_company,233,base_idu.hr_department_113,LABORATORIOS DE ELECTRONICA - FACULTAD TECNOLOGICA,LEFT
+base_idu.hr_department_135,base.main_company,234,base_idu.hr_department_113,LABORATORIOS DE CIVILES - FACULTAD TECNOLOGICA,LCFT
+base_idu.hr_department_136,base.main_company,235,base_idu.hr_department_113,LABORATORIOS DE INDUSTRIAL - FACULTAD TECNOLOGICA,LIFT
+base_idu.hr_department_137,base.main_company,236,base_idu.hr_department_113,LABORATORIOS DE CIENCIAS BASICAS - FACULTAD TECNOLOGICA,LCBA
+base_idu.hr_department_138,base.main_company,237,base_idu.hr_department_113,UNIDAD DE INVESTIGACIONES - FACULTAD TECNOLOGICA,UIFT
+base_idu.hr_department_139,base.main_company,238,base_idu.hr_department_2,INSTITUTO DE LENGUAS,ILUD
+base_idu.hr_department_140,base.main_company,239,base_idu.hr_department_2,INSTITUTO DE ESTUDIOS E INVESTIGACIONES EDUCATIVAS,IEIE
+base_idu.hr_department_141,base.main_company,240,base_idu.hr_department_2,IPAZUD,IPAZUD
+base_idu.hr_department_142,base.main_company,241,base_idu.hr_department_2,LABORATORIOS DE BIOLOGIA,LABI
+base_idu.hr_department_143,base.main_company,242,base_idu.hr_department_2,LABORATORIOS DE FISICA,LAFI
+base_idu.hr_department_144,base.main_company,243,base_idu.hr_department_2,LABORATORIO INGENIERIAS,LAIN
+base_idu.hr_department_145,base.main_company,244,base_idu.hr_department_2,LABORATORIO DE TOPOGRAFIA,LATO
+base_idu.hr_department_146,base.main_company,245,base_idu.hr_department_2,SECCION DE PUBLICACIONES,SEPU
+base_idu.hr_department_147,base.main_company,246,base_idu.hr_department_2,RED DE DATOS UDNET,UDNET
+base_idu.hr_department_148,base.main_company,247,base_idu.hr_department_2,SECCION BIBLIOTECA,SEBI
+base_idu.hr_department_149,base.main_company,248,base_idu.hr_department_2,LABORATORIO DE QUIMICA,LAQU
+base_idu.hr_department_150,base.main_company,249,base_idu.hr_department_2,OFICINA SE ADMISIONES,OFAD
+base_idu.hr_department_151,base.main_company,250,base_idu.hr_department_3,OFICINA ASESORA JURIDICA,OAJU
+base_idu.hr_department_152,base.main_company,251,base_idu.hr_department_3,"OFICINA DE QUEJAS, RECLAMOS Y ATENCION AL CIUDADANO",OQRAC
+base_idu.hr_department_153,base.main_company,252,base_idu.hr_department_3,"SECCION DE ACTAS, ARCHIVO Y MICROFILMACIO",SAAM
+base_idu.hr_department_154,base.main_company,253,base_idu.hr_department_3,SINDICATO DE TRABAJADORES UNIVERSIDAD DISTRITAL,STUD
+base_idu.hr_department_155,base.main_company,254,base_idu.hr_department_3,ASOCIACION DE EMPLEADOS PUBLICOS ADMINISTRATIVOS - ASEPAD UD,ASEPAD
+base_idu.hr_department_156,base.main_company,255,base_idu.hr_department_3,ASOCIACION SINDICAL DE PROFESORES UNIVERSITARIOS (ASPU-UD),ASPU
+base_idu.hr_department_157,base.main_company,256,base_idu.hr_department_6,DIVISION DE RECURSOS HUMANOS,DRHU
+base_idu.hr_department_158,base.main_company,257,base_idu.hr_department_157,SECCION DE NOVEDADES,SENO
+base_idu.hr_department_159,base.main_company,258,base_idu.hr_department_6,DIVISION DE RECURSOS FINANCIEROS,DRFI
+base_idu.hr_department_160,base.main_company,259,base_idu.hr_department_159,SECCION DE CONTABILIDAD,SECO
+base_idu.hr_department_161,base.main_company,260,base_idu.hr_department_159,SECCION DE PRESUPUESTO,SEPR
+base_idu.hr_department_162,base.main_company,261,base_idu.hr_department_159,TESORERIA GENERAL,TEGE
+base_idu.hr_department_163,base.main_company,262,base_idu.hr_department_6,DIVISION DE RECURSOS FISICOS,DIRF
+base_idu.hr_department_164,base.main_company,263,base_idu.hr_department_163,ALMACEN GENERAL E INVENTARIOS,AGIN
+base_idu.hr_department_165,base.main_company,264,base_idu.hr_department_163,SECCION DE COMPRAS,SECO
+base_idu.hr_department_166,base.main_company,265,,IDEXUD,IDEXUD
