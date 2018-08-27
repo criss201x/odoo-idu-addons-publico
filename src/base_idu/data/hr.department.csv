@@ -165,3 +165,5 @@ base_idu.hr_department_163,base.main_company,262,base_idu.hr_department_6,DIVISI
 base_idu.hr_department_164,base.main_company,263,base_idu.hr_department_163,ALMACEN GENERAL E INVENTARIOS,AGIN
 base_idu.hr_department_165,base.main_company,264,base_idu.hr_department_163,SECCION DE COMPRAS,SECO
 base_idu.hr_department_166,base.main_company,265,,IDEXUD,IDEXUD
+base_idu.hr_department_167,base.main_company,266,,CONSEJO ACADEMICO,COAC
+base_idu.hr_department_168,base.main_company,267,,CONSEJO SUPERIOR,COSU
