@@ -39,7 +39,7 @@ def crear_reporte(self, dic_data, nombre_doc, formato_salida, nombre_plantilla, 
         os.makedirs(carpeta)
     # Crear archivo basado en la plantilla y los datos
     globals_dict = globals()
-    globals_dict['reporte'] = dic_data
+    globals_dict['data'] = dic_data
     renderer = Renderer(plantilla, globals_dict, archivo_result)
     renderer.run()
     # Convierte a Formato Salida
