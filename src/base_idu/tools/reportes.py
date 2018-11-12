@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from appy.pod.renderer import Renderer  # sudo pip install appy
+from openerp.exceptions import ValidationError
 import base64
 import os.path
 import psutil
@@ -23,6 +24,8 @@ def crear_reporte(self, dic_data, nombre_doc, formato_salida, nombre_plantilla, 
     """
     # ruta para plantilla
     parametro_ruta = self.env['ir.config_parameter'].get_param(nombre_parametro_plantilla, context=None)
+    if (parametro_ruta == ' '):
+        raise ValidationError("Debe establecer la ruta para el parametro " + nombre_parametro_plantilla)
     plantilla =  parametro_ruta + nombre_plantilla
     # get extencion de plantilla 
     extencion_plantilla = nombre_plantilla.split(".")[-1]
@@ -38,10 +41,15 @@ def crear_reporte(self, dic_data, nombre_doc, formato_salida, nombre_plantilla, 
     if not os.path.exists(carpeta):
         os.makedirs(carpeta)
     # Crear archivo basado en la plantilla y los datos
-    globals_dict = globals()
-    globals_dict['data'] = dic_data
-    renderer = Renderer(plantilla, globals_dict, archivo_result)
-    renderer.run()
+    try:
+        globals_dict = globals()
+        globals_dict['data'] = dic_data
+        renderer = Renderer(plantilla, globals_dict, archivo_result)
+        renderer.run()
+    except IOError as e:
+        raise ValidationError("I/O Error: {0}".format(e))
+    except:
+        raise ValidationError("Error en la ruta del Archivo")
     # Convierte a Formato Salida
     kill_libreoffice()
     subprocess.Popen("libreoffice --headless --invisible --convert-to {} {} --outdir {} ".format(formato_salida, archivo_result, carpeta) ,shell=True)
