@@ -1,0 +1,9 @@
+id,nombre,tipo,radicado_orfeo,fecha_creacion,dependencia,Auditor,origen,sub_origen,proceso_origen,name_user,email_user,area_user,rol_user
+1,AUITORÍA DE REGULARIDAD CÓD. 24 (PAD 2022),contraloria_bog,,2022-05-24 00:00,REC,slromerop,,,,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+2,AUITORÍA DE DESEMPEÑO CÓD. 27 (PAD 2022),contraloria_bog,,2022-08-22 00:00,IDEXUD,slromerop,,,,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+3,AUDITORÍA INERNA A TESORERÍA GENERAL - IMPUESTOS (2021),interno,,2022-02-01 00:00,TGE,slromerop,auditoria interna (slromerop),auditoria interna,Tesorería General - TGE,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+4,AUDITORÍA FIRMA KRESTON (2021),interno,,2022-01-01 00:00,IDEXUD,slromerop,auditoria interna (slromerop),auditoria interna,IDEXUD,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+5,AUDITORIA INTERNA SGSST RES. 312-2019 (2022),interno,,2022-05-17 00:00,SGSST,slromerop,auditoria interna (slromerop),auditoria interna,Subsistema de Seguridad y Salud en el Trabajo -SGSST,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+6,AUDITORIA PROCESO CONTROL DISCIPLINARIO (2022),interno,,2022-04-25 00:00,OAAD,slromerop,auditoria interna (slromerop),auditoria interna,Oficina Asesora de Asuntos Disciplinarios - OAAD,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+7,AUDITORIA PROCESO DE GESTIÓN DE SISTEMAS DE INFORMACIÓN Y LAS TELECOMUNICACIONES (2022),interno,,2022-06-29 00:00,OAS,slromerop,auditoria interna (slromerop),auditoria interna,Oficina Asesora de Sistemas - OAS,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
+8,AUDITORIA COMITÉ DE PUNTAJE (2022),interno,,2022-08-29 00:00,ODO,slromerop,auditoria interna (slromerop),auditoria interna,Oficina de Docencia - ODO,Sandra Liliana Romero Peña,slromerop@udistrital.edu.co,OACI,1
