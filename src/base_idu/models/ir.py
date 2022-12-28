@@ -61,9 +61,16 @@ class ir_attachment(models.Model):
                         require_employee = True
                     continue
                 res_ids.setdefault(rmod,set()).add(rid)
+                
+        global rmod        
+        if rmod == 'plan_mejoramiento.accion':
+             raise ValidationError('ATENCION! estimado usuario, la subida de archivos ha sido desactivada para el modulo de actividades')
+                
         if values:
             if values.get('res_model') and values.get('res_id'):
                 res_ids.setdefault(values['res_model'],set()).add(values['res_id'])
+                if values['res_model'] == 'plan_mejoramiento.avance':                    
+                    raise ValidationError(values['res_model'])
 
         ima = self.pool.get('ir.model.access')
         for model, mids in res_ids.items():
