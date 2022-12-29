@@ -23,7 +23,7 @@
 
 from openerp import models, fields, api
 from openerp import SUPERUSER_ID
-
+from openerp.exceptions import Warning, AccessError, ValidationError
 
 class ir_attachment(models.Model):
     _inherit = 'ir.attachment'
